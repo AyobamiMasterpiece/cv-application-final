@@ -1,8 +1,19 @@
-import react from 'react'
+import React from "react";
+import "../styles/input.css";
 
-function Input (params) {
-    return (
-        label
-        <input type="text" />
-    )
+export default function Input({ name, type, onchange, id, value }) {
+  console.log(value);
+  return (
+    <>
+      <label htmlFor={name}>{name}</label>
+      <input
+        type={type}
+        id={name}
+        name={name}
+        onChange={onchange}
+        id={id}
+        value={value}
+      />
+    </>
+  );
 }
