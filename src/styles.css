@@ -1,3 +1,7 @@
+* {
+  font-family: Roboto;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -16,12 +20,10 @@ button {
   border-radius: 15px;
   margin: 10px;
   padding: 10px 70px;
-  width: 44%;
 }
 label {
   display: block;
   letter-spacing: 1px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 label::first-letter {
   text-transform: uppercase;

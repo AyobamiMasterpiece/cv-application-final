@@ -36,6 +36,7 @@ export default function App() {
     },
   });
   function changeCv(e) {
+    console.log("pp");
     let value = e.target.value;
     let id = e.target.id;
     let name = e.target.name;
